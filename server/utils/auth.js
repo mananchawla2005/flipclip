@@ -8,7 +8,7 @@ const config = useRuntimeConfig()
 
 const appDomain = config.auth0Domain;
 
-export const auth0 = new Auth0(appDomain, config.auth0ClientId, config.auth0ClientSecret, "http://localhost:3000/login/callback");
+export const auth0 = new Auth0(appDomain, config.auth0ClientId, config.auth0ClientSecret, "https://flipclip.vercel.app/login/callback");
 
 Object.defineProperty(globalThis, 'crypto', {
 	value: webcrypto,
