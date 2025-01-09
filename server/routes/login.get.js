@@ -4,6 +4,7 @@ import { auth0 } from "~/server/utils/auth";
 export default defineEventHandler(async (event) => {
 	const state = generateState();
 	const config = useRuntimeConfig()
+	console.log(config)
 	console.log(config.auth0Domain, config.auth0ClientId, config.auth0ClientSecret)
 	const url = await auth0.createAuthorizationURL(state, {
 		scopes: ['profile', 'email']

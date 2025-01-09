@@ -21,7 +21,7 @@ const openFeature = (n, state) => {
             <div class="size-[170px] pt-10 pl-7 ">
                 <nuxt-link to="/browse"><img src="/fc.png"></nuxt-link>
             </div>
-          <div class="ml-auto mr-20 mt-16 spartan text-2xl font-semibold"><h1 class="border-b-[3px] hover:cursor-pointer relative z-10 border-black"><nuxt-link external to="/login">Login</nuxt-link></h1></div>
+          <div class="ml-auto mr-20 mt-16 spartan text-2xl font-semibold"><h1 class="border-b-[3px] hover:cursor-pointer relative z-10 border-black"><a href="/login">Login</a></h1></div>
         </div>
         <div class="relative">
             <div class="text-center text-5xl font-semibold  absolute w-full z-10 top-0 spartan ">Unlock Knowledge with a

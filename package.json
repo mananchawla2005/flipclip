@@ -19,7 +19,6 @@
     "langchain": "^0.1.33",
     "lucia": "^3.1.1",
     "microsoft-cognitiveservices-speech-sdk": "^1.36.0",
-    "nuxt": "^3.11.2",
     "oslo": "^1.2.0",
     "pdf-parse": "^1.1.1",
     "pgvector": "^0.1.8",
@@ -31,6 +30,7 @@
   "devDependencies": {
     "@nuxt/fonts": "^0.6.1",
     "@nuxtjs/tailwindcss": "^6.11.4",
+    "nuxt": "^3.15.1",
     "nuxt-icon": "^0.6.10"
   }
 }
