@@ -1,0 +1,36 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@azure/storage-blob": "^12.17.0",
+    "@google/generative-ai": "^0.6.0",
+    "@langchain/google-genai": "^0.0.11",
+    "@lucia-auth/adapter-postgresql": "^3.1.2",
+    "arctic": "^1.5.0",
+    "audio-waves-player": "github:jonalxh/audio-waves-player",
+    "langchain": "^0.1.33",
+    "lucia": "^3.1.1",
+    "microsoft-cognitiveservices-speech-sdk": "^1.36.0",
+    "nuxt": "^3.11.2",
+    "oslo": "^1.2.0",
+    "pdf-parse": "^1.1.1",
+    "pgvector": "^0.1.8",
+    "postgres": "^3.4.4",
+    "vue": "^3.4.21",
+    "vue-router": "^4.3.0",
+    "xml-to-json-util": "^1.0.1"
+  },
+  "devDependencies": {
+    "@nuxt/fonts": "^0.6.1",
+    "@nuxtjs/tailwindcss": "^6.11.4",
+    "nuxt-icon": "^0.6.10"
+  }
+}
