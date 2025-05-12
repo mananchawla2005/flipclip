@@ -14,5 +14,13 @@ export default defineNuxtConfig({
     dbUri: ''
   },
 
-  compatibilityDate: "2025-01-10"
+  compatibilityDate: "2025-01-10",
+    routeRules: {
+    // when someone hits "/", send them to "/login"
+    '/': { 
+      redirect: '/login'         // 307 Temporary by default
+      // or, for a permanent (301) redirect:
+      // redirect: { to: '/login', statusCode: 301 }
+    },
+  },
 })
